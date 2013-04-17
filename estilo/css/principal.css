@@ -1,0 +1,381 @@
+body {
+  color: black;
+  font: 11px verdana;
+  background-image: url('../imagenes/default/fondo_login.jpg');
+  background-repeat    		: no-repeat;
+  background-position			: center;
+  background-attachment		: fixed;
+ background-color		: black;
+}
+table {
+  border-style: none;
+  padding: 0px;
+  font: 11px verdana;
+}
+td {
+  border-style: none;
+  padding: 3px;
+  vertical-align: top;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.cabecera {
+  	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 1024px;
+	height: 140px;
+	font-weight: bold;
+	text-align: center;
+}
+/*Encargado de las barras lateraltes*/
+.left {
+	position: absolute;
+	width: 200px;
+	left: 2px;
+	top: 145px;
+	height: 750px;
+	background-image:url(../imagenes/default/barrabar.gif);
+}
+.right {
+	position: absolute;
+	width: 200px;
+	top: 145px;
+	left: 826px;
+	height: 750px;
+	background-image:url(../imagenes/default/barrabar.gif);
+  }
+/*Encargado de la columna central */
+.contenido {
+	position: absolute;
+	top: 145px;
+	left: 202px;
+	width: 624px;
+	height: 750px;
+	background-image:url(../imagenes/default/contenidobar.gif);
+}
+
+.contenido2 {
+	position:absolute;
+	text-align:center;
+	color: #FFFFFF;
+	top: 100px;
+	left: 20px;
+}
+
+.monstruos {
+	position:absolute;
+	text-align:center;
+	color: #FFFFFF;
+	top: 40px;
+	left: 280px;
+}
+
+.titulo{
+	position: absolute;
+	top: 26px;
+	font-weight:bold;
+	font-size:18px;
+	width: 585px;
+	height: 20px;
+	left: 18px;
+	color: #FFFFFF;
+	font-family: Arial Black,"Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	}
+  
+ .copyright {
+	position:absolute;
+	top: 850px;
+	left: 218px;
+	width: 585px;
+	height: 30px;
+	font: 10px verdana;
+	line-height. 10px;
+}
+
+.small {
+  font: 10px verdana;
+}
+.highlight {
+  color: red;
+}
+.light {
+  color: #CCCCCC;
+}
+.title {
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	width: 190px;
+	height: 20px;
+	padding: 2px;
+	left: -15px;
+}
+
+.logo{
+position: absolute;
+top: -4px;
+left: 0px;
+width:140px;
+height: 160px;
+}
+/*Encargado del menu horizontal */
+.menusup {
+position: absolute;
+top: 115px;
+left: 170px;
+width:650px;
+height: 20px;
+padding: 0px 0px 15px 0px;
+
+}
+.menusup ul li {  
+       display: inline;  
+	    padding: 4px 7px; 
+margin:1px; 
+border: 1px solid black;
+background-color:#5E2F00;  
+ }  
+.menusup ul li a {  
+    color:#FFFFFF;
+	background-color:#5E2F00;  
+ }  
+.menusup ul li:hover {  
+         background-color:#4F2700;
+ }  
+/* Estilo de las barras laterales */
+.texto {
+position: absolute;
+padding: 12px;
+top: 1px;
+left: 1px;
+width: 193px;
+height: 705;
+text-align: left;
+}
+.nombrepersonaje {
+position: absolute;
+top: 72px;
+left: 12px;
+text-align: center;
+}
+.hojapersonaje {
+position: absolute;
+top: 55px;
+left: 28px;
+text-align: center;
+}
+.raza {
+position: absolute;
+top: 90px;
+width: 50px;
+height: 50px;
+}
+.barras {
+position: absolute;
+top: 70px;
+left: 75px;
+width: 120px;
+height: 100px;
+}
+
+.informacion {
+position: absolute;
+top: 160px;
+list-style:none;
+}
+.informacion2 {
+position:relative;
+left: -30px;
+line-height:10px;
+text-decoration:none;
+}
+
+.informacion3 {
+position:absolute;
+left:80px;
+line-height:10px;
+}
+#tituloinfo{
+font-size: 14px;
+font-weight: bold;
+}
+.inventario {
+position: absolute;
+top: 245px;
+}
+.tituloinventario {
+top: 230px;
+left: 28px;
+text-align: center;
+}
+.habilidades {
+position: absolute;
+top: 400px;
+}
+/* Encargado de la tienda de items */
+.nopun {
+list-style:none;
+line-height:30px;
+text-align: left;
+}
+.item /* Posición de la primera columna */
+	{
+	position:relative;
+	left:-15px;
+	}
+	
+.item2 /* Posición de la segunda columna */
+	{
+	position:relative;
+	left:5px;
+	}	
+
+.item3 {
+	position: absolute;
+	text-align: left;
+	left: 200px;
+}
+
+.item4{
+	position: absolute;
+	text-align: left;
+	left: 350px;
+}
+.item5 /* Posición de la cuarta columna */
+	{
+	position: absolute;
+	text-align: left;
+	left: 450px;
+	}
+.tipo{
+	position:absolute;
+	left:20px;
+	}
+.nombre {
+	position:absolute;
+	left:60px;
+	}
+/*Encargado de los estilos de la posada*/
+
+.posada {
+	position: absolute;
+	left: 20px;
+	top: 5px;
+	width: 300px;
+	height: 200px;
+	background-image:url(../imagenes/default/posada.jpg);
+}
+.posada2 {
+	position: absolute;
+	left: 330px;
+	top: 5px;
+	width: 280px;
+	height: 200px;
+	text-align: left;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+.posada2 input {
+	background-color: black;
+	border: 1px solid #FFFFFF;
+	width: 45px;
+	height: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    behavior:url(border-radius.htc);
+
+}
+.posada2 input:focus {
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+.posada2 input:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+	border: 1px solid #000000;
+}
+/*Encargado de los estilos del index */
+.mapa {
+	position:absolute;
+	color:FFFFFF;
+	top: 90px;
+	left: 20px;
+}
+.notionliti{
+	position: relative;
+	font-size:16px;
+	top: 2px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+}
+.notionli {
+	position:relative;
+	width: 588px;
+	overflow:auto;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+/* Encargado de la tienda de mapas */
+
+.mapas{
+	position: relative;
+	left: -15px;
+}
+
+.mapas2{
+	position: absolute;
+	left: 150px;
+	text-align: left;
+}
+
+.mapas3 {
+	position: absolute;
+	left: 350px;
+	text-align: left;
+}
+
+.mapas4{
+	position: absolute;
+	left: 480px;
+	text-align: left;
+}
+/*Encargado del chat */
+.mensajesch {
+	position: relative;
+	top: 80px;
+	left: 18px;
+	width: 588px;
+	background-color:#FFFFFF;
+	filter               : alpha(opacity=70);
+    -moz-opacity         : 0.8;
+    -khtml-opacity       : 0.8;
+    opacity              : 0.8;
+}
+.publicarch{
+	position: relative;
+	top: 80px;
+}
+.centrar{
+    width: 1024px;
+	margin-left:-512px;
+    position: absolute;
+	left: 50%;
+}
+
