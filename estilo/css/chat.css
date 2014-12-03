@@ -1,0 +1,21 @@
+body {
+  background-image: url(../default/fondo_juego.jpg);
+  color: black;
+  font: 11px verdana;
+  margins: 0px;
+  padding: 0px;
+}
+div {
+    padding: 2px;
+    border: solid 1px black;
+    margin: 2px;
+    text-align: left;
+}
+a {
+    color: #663300;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #330000;
+}
